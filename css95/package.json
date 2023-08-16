@@ -1,0 +1,17 @@
+{
+  "name": "css95",
+  "version": "0.0.1",
+  "description": "",
+  "repository": "github:WesSouza/CSS95",
+  "author": "Wes Souza <hey@wes.dev>",
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "Windows 95",
+    "retro"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

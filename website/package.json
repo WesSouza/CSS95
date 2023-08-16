@@ -1,0 +1,16 @@
+{
+  "name": "website",
+  "version": "0.0.1",
+  "description": "",
+  "repository": "github:WesSouza/CSS95",
+  "author": "Wes Souza <hey@wes.dev>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@astrojs/vercel": "^3.8.1",
+    "astro": "^2.10.9"
+  }
+}
