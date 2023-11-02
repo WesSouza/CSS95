@@ -1,3 +1,4 @@
 packages:
   - 'css95'
+  - 'examples/*'
   - 'website'

@@ -1,0 +1,16 @@
+{
+  "name": "css95-example-react-css-modules",
+  "private": true,
+  "scripts": {
+    "dev": "vite"
+  },
+  "dependencies": {
+    "css95": "link:../../css95",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.1.1",
+    "vite": "^4.5.0"
+  }
+}
