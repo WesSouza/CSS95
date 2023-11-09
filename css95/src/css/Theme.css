@@ -1,0 +1,12 @@
+.Button,
+.Grouping,
+.StatusField,
+.ThinButton,
+.Window {
+  color: var(--css95-color-materialText);
+}
+
+.Field,
+.Well {
+  color: var(--css95-color-canvasText);
+}

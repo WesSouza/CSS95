@@ -1,1 +1,8 @@
+@import "./css/Borders.css";
+@import "./css/Button.css";
+@import "./css/Field.css";
+@import "./css/StatusField.css";
+@import "./css/System32.css";
+@import "./css/Theme.css";
 @import "./css/Window.css";
+@import "./themes/Classic.css";

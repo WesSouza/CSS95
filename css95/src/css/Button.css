@@ -1,0 +1,22 @@
+.Button,
+.ThinButton {
+  --css95-button-height: calc(var(--css95-scale) * 23px);
+  --css95-button-padding-inline: calc(var(--css95-scale) * 12px);
+
+  min-height: var(--css95-button-height);
+  padding-block: var(--css95-border-padding);
+  padding-inline: calc(
+    var(--css95-border-padding) + var(--css95-button-padding-inline)
+  );
+  background-color: var(--css95-color-material);
+}
+
+:is(.Button, .ThinButton):active {
+  padding-block: calc(var(--css95-border-padding) / 2) 0;
+}
+
+button:is(.Button, .ThinButton) {
+  display: inline-block;
+  appearance: none;
+  border: none;
+}

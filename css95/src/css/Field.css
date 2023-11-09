@@ -1,0 +1,16 @@
+.Field {
+  --css95-input-padding-inline: calc(var(--css95-scale) * 2px);
+
+  min-height: calc(var(--css95-scale) * 21px);
+  padding-inline: calc(
+    var(--css95-border-padding) + var(--css95-input-padding-inline)
+  );
+  background-color: var(--css95-color-canvas);
+}
+
+input.Field {
+  display: inline-block;
+  appearance: none;
+  border: none;
+  caret-color: var(--css95-color-materialText);
+}

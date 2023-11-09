@@ -1,0 +1,97 @@
+.Border,
+.Button,
+.ButtonDownBorder,
+.ButtonUpBorder,
+.Field,
+.FieldBorder,
+.Grouping,
+.GroupingBorder,
+.StatusField,
+.StatusFieldBorder,
+.ThinButton,
+.ThinButtonDownBorder,
+.ThinButtonUpBorder,
+.WellBorder,
+.Window,
+.WindowBorder {
+  --border-width: calc(var(--css95-scale) * 1px);
+  --border-width-negative: calc(var(--css95-scale) * -1px);
+  --border-width-double: calc(var(--css95-scale) * 2px);
+  --border-width-double-negative: calc(var(--css95-scale) * -2px);
+  --css95-border-padding: var(--border-width-double);
+
+  box-shadow:
+    inset var(--border-width-negative) var(--border-width-negative)
+      var(--css95-bottomRightOuter),
+    inset var(--border-width) var(--border-width) var(--css95-topLeftOuter),
+    inset var(--border-width-double-negative)
+      var(--border-width-double-negative) var(--css95-bottomRightInner),
+    inset var(--border-width-double) var(--border-width-double)
+      var(--css95-topLeftInner);
+}
+
+.Button,
+.ButtonUpBorder {
+  --css95-topLeftOuter: var(--css95-color-borderLightest);
+  --css95-topLeftInner: var(--css95-color-borderLight);
+  --css95-bottomRightInner: var(--css95-color-borderDark);
+  --css95-bottomRightOuter: var(--css95-color-borderDarkest);
+}
+
+.Button:active,
+.ButtonDownBorder {
+  --css95-topLeftOuter: var(--css95-color-borderDarkest);
+  --css95-topLeftInner: var(--css95-color-borderDark);
+  --css95-bottomRightInner: var(--css95-color-borderLight);
+  --css95-bottomRightOuter: var(--css95-color-borderLightest);
+}
+
+.Field,
+.FieldBorder,
+.Well,
+.WellBorder {
+  --css95-topLeftOuter: var(--css95-color-borderDark);
+  --css95-topLeftInner: var(--css95-color-borderDarkest);
+  --css95-bottomRightInner: var(--css95-color-borderLight);
+  --css95-bottomRightOuter: var(--css95-color-borderLightest);
+}
+
+.Grouping,
+.GroupingBorder {
+  --css95-topLeftOuter: var(--css95-color-borderDark);
+  --css95-topLeftInner: var(--css95-color-borderLightest);
+  --css95-bottomRightInner: var(--css95-color-borderDark);
+  --css95-bottomRightOuter: var(--css95-color-borderLightest);
+}
+
+.StatusField,
+.StatusFieldBorder {
+  --css95-topLeftOuter: var(--css95-color-borderDark);
+  --css95-topLeftInner: transparent;
+  --css95-bottomRightInner: transparent;
+  --css95-bottomRightOuter: var(--css95-color-borderLightest);
+}
+
+.ThinButton,
+.ThinButtonUpBorder {
+  --css95-topLeftOuter: var(--css95-color-borderLightest);
+  --css95-topLeftInner: transparent;
+  --css95-bottomRightInner: transparent;
+  --css95-bottomRightOuter: var(--css95-color-borderDark);
+}
+
+.ThinButton:active,
+.ThinButtonDownBorder {
+  --css95-topLeftOuter: var(--css95-color-borderDark);
+  --css95-topLeftInner: transparent;
+  --css95-bottomRightInner: transparent;
+  --css95-bottomRightOuter: var(--css95-color-borderLightest);
+}
+
+.Window,
+.WindowBorder {
+  --css95-topLeftOuter: var(--css95-color-borderLight);
+  --css95-topLeftInner: var(--css95-color-borderLightest);
+  --css95-bottomRightInner: var(--css95-color-borderDark);
+  --css95-bottomRightOuter: var(--css95-color-borderDarkest);
+}
