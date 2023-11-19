@@ -1,7 +1,8 @@
 .Button,
-.ThinButton {
-  --css95-button-height: calc(var(--css95-scale) * 23px);
-  --css95-button-padding-inline: calc(var(--css95-scale) * 12px);
+.ThinButton,
+.WindowTitleButton {
+  --css95-button-padding-inline: calc(var(--css95-scale-value) * 12);
+  --css95-button-padding-shift: var(--css95-scale-value);
 
   min-height: var(--css95-button-height);
   padding-block: var(--css95-border-padding);
@@ -9,13 +10,24 @@
     var(--css95-border-padding) + var(--css95-button-padding-inline)
   );
   background-color: var(--css95-color-material);
+
+  &:active {
+    padding-block: calc(
+        var(--css95-border-padding) + var(--css95-button-padding-shift)
+      )
+      calc(var(--css95-border-padding) - var(--css95-button-padding-shift));
+    padding-inline: calc(
+        var(--css95-border-padding) + var(--css95-button-padding-inline) +
+          var(--css95-button-padding-shift)
+      )
+      calc(
+        var(--css95-border-padding) + var(--css95-button-padding-inline) -
+          var(--css95-button-padding-shift)
+      );
+  }
 }
 
-:is(.Button, .ThinButton):active {
-  padding-block: calc(var(--css95-border-padding) / 2) 0;
-}
-
-button:is(.Button, .ThinButton) {
+button:is(.Button, .ThinButton, .WindowTitleButton) {
   display: inline-block;
   appearance: none;
   border: none;

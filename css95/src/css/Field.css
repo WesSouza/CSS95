@@ -1,16 +1,10 @@
-.Field {
-  --css95-input-padding-inline: calc(var(--css95-scale) * 2px);
-
-  min-height: calc(var(--css95-scale) * 21px);
-  padding-inline: calc(
-    var(--css95-border-padding) + var(--css95-input-padding-inline)
-  );
+.Field,
+.TextBox {
+  min-height: calc(var(--css95-scale-value) * 21);
+  padding: var(--css95-border-padding);
   background-color: var(--css95-color-canvas);
-}
 
-input.Field {
-  display: inline-block;
-  appearance: none;
-  border: none;
-  caret-color: var(--css95-color-materialText);
+  &:is(.SmallSpacing, .MediumSpacing, .LargeSpacing) {
+    padding: calc(var(--css95-spacing-padding) + var(--css95-border-padding));
+  }
 }

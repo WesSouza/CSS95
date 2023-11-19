@@ -1,3 +1,15 @@
 :root {
-  --css95-scale: 1;
+  --css95-scale-value: calc(var(--css95-scale, 1) * 0.0625rem);
+}
+
+.Border,
+.Button,
+.Desktop,
+.Field,
+.Grouping,
+.StatusField,
+.TextBox,
+.ThinButton,
+.Window {
+  box-sizing: border-box;
 }

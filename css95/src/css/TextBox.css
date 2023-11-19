@@ -1,0 +1,21 @@
+.TextBox {
+  --css95-input-padding-inline: calc(var(--css95-scale-value) * 2);
+
+  padding-inline: calc(
+    var(--css95-border-padding) + var(--css95-input-padding-inline)
+  );
+
+  &:is(.SmallSpacing, .MediumSpacing, .LargeSpacing) {
+    padding-inline: calc(
+      var(--css95-spacing-padding) + var(--css95-input-padding-inline) +
+        var(--css95-border-padding)
+    );
+  }
+}
+
+input.TextBox {
+  display: inline-block;
+  appearance: none;
+  border: none;
+  caret-color: var(--css95-color-materialText);
+}

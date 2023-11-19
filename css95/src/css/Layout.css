@@ -1,0 +1,41 @@
+.Horizontal,
+.HorizontalStart,
+.HorizontalCenter,
+.HorizontalEnd {
+  display: flex;
+  flex-direction: row;
+}
+
+.HorizontalStart {
+  align-content: flex-start;
+}
+
+.HorizontalCenter {
+  align-content: center;
+}
+
+.HorizontalEnd {
+  align-content: flex-end;
+}
+
+.Vertical,
+.VerticalStart,
+.VerticalCenter,
+.VerticalEnd,
+.Window,
+.WindowContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.VerticalStart {
+  align-content: flex-start;
+}
+
+.VerticalCenter {
+  align-content: center;
+}
+
+.VerticalEnd {
+  align-content: flex-end;
+}

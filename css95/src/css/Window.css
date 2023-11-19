@@ -1,3 +1,32 @@
 .Window {
   background-color: var(--css95-color-material);
 }
+
+.WindowContent {
+}
+
+.WindowTitleBar {
+  display: flex;
+
+  padding: calc(var(--css95-scale-value) * 2);
+  color: var(--css95-color-headerNotActiveText);
+  background-color: var(--css95-color-headerNotActiveBackground);
+
+  .WindowActive & {
+    color: var(--css95-color-headerText);
+    background-color: var(--css95-color-headerBackground);
+  }
+}
+
+.WindowTitleButtons {
+  margin-inline-start: auto;
+}
+
+.WindowTitleButton {
+}
+
+.WindowTitleIcon {
+}
+
+.WindowTitleText {
+}
