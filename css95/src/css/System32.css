@@ -2,6 +2,7 @@
   --css95-scale-value: calc(var(--css95-scale, 1) * 0.0625rem);
 }
 
+.ActiveWindow,
 .Border,
 .Button,
 .Desktop,

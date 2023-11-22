@@ -1,3 +1,4 @@
+.ActiveWindow,
 .Border,
 .Button,
 .ButtonDownBorder,
@@ -99,6 +100,7 @@
   --css95-bottomRightOuter: var(--css95-color-borderLightest);
 }
 
+.ActiveWindow,
 .Window,
 .WindowBorder {
   --css95-topLeftOuter: var(--css95-color-borderLight);

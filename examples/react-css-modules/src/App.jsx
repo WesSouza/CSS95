@@ -12,7 +12,7 @@ export function App() {
 
   return (
     <div className={styles.ClassicTheme}>
-      <div className={classNames(styles.Window, styles.WindowActive)}>
+      <div className={classNames(styles.ActiveWindow)}>
         <div className={styles.WindowTitleBar}>
           <div className={styles.WindowTitleIcon}></div>
           <div className={styles.WindowTitleText}>
