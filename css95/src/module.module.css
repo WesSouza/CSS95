@@ -1,11 +1,19 @@
-@import "./css/Borders.css";
-@import "./css/Button.css";
-@import "./css/Field.css";
-@import "./css/Input.css";
-@import "./css/Layout.css";
-@import "./css/Spacing.css";
-@import "./css/StatusField.css";
-@import "./css/System32.css";
-@import "./css/Theme.css";
-@import "./css/Window.css";
-@import "./themes/Classic.css";
+/*
+IMPORTANT!
+The library used to generate .d.ts type definitions has a bug[1] that only
+respects imports using single quotes. Make sure to not automatically format this file.
+
+[1]: https://github.com/Quramy/typed-css-modules/issues/163
+*/
+
+@import './css/Borders.css';
+@import './css/Button.css';
+@import './css/Field.css';
+@import './css/Input.css';
+@import './css/Layout.css';
+@import './css/Spacing.css';
+@import './css/StatusField.css';
+@import './css/System32.css';
+@import './css/Theme.css';
+@import './css/Window.css';
+@import './themes/Classic.css';

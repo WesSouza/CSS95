@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "pnpm run --parallel --filter css95 --filter css95-example-react-css-modules dev"
+    "dev": "pnpm run --parallel --filter css95 --filter css95-example-react-css-modules dev",
+    "format": "prettier --write css95 examples"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.9.1",

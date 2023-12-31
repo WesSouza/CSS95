@@ -1,3 +1,1 @@
-import styles from "./module.module.css";
-
-export { styles };
+export * from "./module.module.css";
