@@ -1,7 +1,1 @@
-# CSS 95
-
-WIP.
-
-## LICENSE
-
-MIT, https://wes.dev/LICENSE.txt
+./css95/README.md
