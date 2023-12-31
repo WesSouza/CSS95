@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@astrojs/vercel": "^5.1.0",
-    "astro": "^3.4.3"
+    "@astrojs/vercel": "^6.1.2",
+    "astro": "^4.0.9"
   }
 }
