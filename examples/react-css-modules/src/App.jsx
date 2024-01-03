@@ -1,5 +1,5 @@
 import classNames from "classnames";
-import styles from "css95";
+import * as styles from "css95";
 import { useEffect } from "react";
 
 export function App() {
